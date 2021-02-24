@@ -102,7 +102,7 @@ sh run.R
 
 ## TEST DATA
 
-A sample EDS file and a sample report are provided in the sample_eds directory
+A sample EDS file are provided in the sample_eds directory
  
 ## AUTHORS
 
