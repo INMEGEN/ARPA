@@ -1,0 +1,11 @@
+
+PAQUETES DE R
+
+shiny v1.4.0.2
+shinythemes v1.1.2
+shinyFiles v0.7.5
+DT v0.13
+tidyverse v1.2.1
+rmarkdown v2.1
+cowplot v1.0.1
+ggpubr v0.1.8

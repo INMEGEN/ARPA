@@ -1,0 +1,46 @@
+---
+title: "`r paste0("Plate ", plate, " QC")`"
+output: 
+	html_document:
+		theme: espresso
+		self_contained: false
+---
+<div align="right">Date: `r date`</div>
+
+<div class="header">
+  <img align="left" src="ARPA_logo.png" alt="ARPA"/>
+</div>
+
+<div align="center"><h1>Plate QC curves</h1></div>
+<div align="center"><h2>Plate `r plate`</h2></div>
+
+<p style="text-align:left;">
+    Plate ID: `r plate`
+    <span style="float:right;">
+        Plate control: `r qc_results`
+    </span>
+</p>
+---
+
+
+#### QC results table
+
+```{r echo = FALSE, warning = FALSE, results = 'asis', message = FALSE}
+options(knitr.table.format = "html") 
+kbl(my_r, col.names = c("Sample", "E Gene", "RNase P")) %>%
+  kable_styling()
+```  
+
+#### `r plate` QC amplification curves
+
+```{r fig.align = 'center', echo = FALSE, warning = FALSE, results = 'asis', message = FALSE, fig.height = 6.5, fig.width = 5.5}
+ntc_p
+```
+
+```{r fig.align = 'center', echo = FALSE, warning = FALSE, results = 'asis', message = FALSE, fig.height = 8, fig.width = 6}
+ptc_p
+```
+
+```{r fig.align = 'center', echo = FALSE, warning = FALSE, results = 'asis', message = FALSE, fig.height = 8, fig.width = 6}
+exc_p
+```
