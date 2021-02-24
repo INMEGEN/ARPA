@@ -36,7 +36,7 @@ ui <- fluidPage(
   ),
   
   titlePanel( div(column(width = 6, h1("ARPA - Automatic analysis of RT-PCR results")), 
-                  column(width = 4, tags$img(src = "images/arpa.jpeg"))),
+                  column(width = 4, tags$img(src = "images/arpa.jpeg",  height="70%", width="70%", align="center"))),
               windowTitle="rt-PCR-analysis"),
   
   hr(),
