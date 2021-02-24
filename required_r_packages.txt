@@ -1,5 +1,5 @@
 
-PAQUETES DE R
+R PACKAGES
 
 shiny v1.4.0.2
 shinythemes v1.1.2
@@ -9,3 +9,9 @@ tidyverse v1.2.1
 rmarkdown v2.1
 cowplot v1.0.1
 ggpubr v0.1.8
+kableExtra v1.3.4
+growthrates v0.8.2
+fs v1.5.0
+janitor v2.1.0
+vroom v1.4.0
+ezknitr v0.6
