@@ -66,7 +66,7 @@ The values of the fluorescence per cycle are retrieved from the files exporteD b
  - Download the repository
 
 ```
-git clone https://github.com/guillermodeandajauregui/ARPA.git
+git clone https://github.com/INMEGEN/ARPA.git
 ```
 You could also download the ZIP file from the download menu in the repository and uncompress the folder
 
