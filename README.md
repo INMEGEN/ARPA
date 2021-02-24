@@ -71,6 +71,8 @@ git clone https://github.com/INMEGEN/ARPA.git
 You could also download the ZIP file from the download menu in the repository and uncompress the folder
 
 
+## RUNNING ARPA
+
 ### OPTION 1
 
  - Move to the repository directory
@@ -100,7 +102,7 @@ sh run.R
 
 ## TEST DATA
 
-A sample EDS file and a sample report are provided in the sample_files directory
+A sample EDS file and a sample report are provided in the sample_eds directory
  
 ## AUTHORS
 
