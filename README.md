@@ -86,10 +86,10 @@ sh install.sh
 ```
 You will be prompted to enter your user password as some commands will do installations as root
 
- - Run the launcher script
+ - Run ARPA
 
 ```
-sh launcher.R
+sh run.R
 ```
 
 ### OPTION 2
